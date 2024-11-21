@@ -58,7 +58,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "${DS_PROMETHEUS}"
+        "uid": "PAE45454D0EDB9216"
       },
       "description": "Total number of scrapes by the OPNsense exporter",
       "fieldConfig": {
@@ -115,13 +115,10 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "${DS_PROMETHEUS}"
+            "uid": "PAE45454D0EDB9216"
           },
-          "editorMode": "code",
-          "exemplar": false,
-          "expr": "opnsense_exporter_scrapes_total{opnsense_instance=\"$opnsense_instance\"}",
+          "expr": "",
           "instant": false,
-          "legendFormat": "{{opnsense_instance}}",
           "range": true,
           "refId": "A"
         }
@@ -949,6 +946,7 @@
             "axisLabel": "",
             "axisPlacement": "auto",
             "barAlignment": 0,
+            "barWidthFactor": 0.6,
             "drawStyle": "line",
             "fillOpacity": 25,
             "gradientMode": "opacity",
@@ -984,7 +982,8 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "green"
+                "color": "green",
+                "value": null
               },
               {
                 "color": "red",
@@ -1015,6 +1014,7 @@
           "sort": "none"
         }
       },
+      "pluginVersion": "11.3.0",
       "targets": [
         {
           "datasource": {
@@ -1051,6 +1051,7 @@
             "axisLabel": "",
             "axisPlacement": "auto",
             "barAlignment": 0,
+            "barWidthFactor": 0.6,
             "drawStyle": "line",
             "fillOpacity": 25,
             "gradientMode": "opacity",
@@ -1086,7 +1087,8 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "green"
+                "color": "green",
+                "value": null
               },
               {
                 "color": "red",
@@ -1117,6 +1119,7 @@
           "sort": "none"
         }
       },
+      "pluginVersion": "11.3.0",
       "targets": [
         {
           "datasource": {
@@ -1152,7 +1155,8 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "semi-dark-green"
+                "color": "semi-dark-green",
+                "value": null
               }
             ]
           },
@@ -1172,6 +1176,7 @@
         "graphMode": "area",
         "justifyMode": "auto",
         "orientation": "auto",
+        "percentChangeColorMode": "standard",
         "reduceOptions": {
           "calcs": ["lastNotNull"],
           "fields": "",
@@ -1181,7 +1186,7 @@
         "textMode": "auto",
         "wideLayout": true
       },
-      "pluginVersion": "11.1.0-70903",
+      "pluginVersion": "11.3.0",
       "targets": [
         {
           "datasource": {
@@ -1219,6 +1224,7 @@
             "axisLabel": "",
             "axisPlacement": "auto",
             "barAlignment": 0,
+            "barWidthFactor": 0.6,
             "drawStyle": "line",
             "fillOpacity": 29,
             "gradientMode": "hue",
@@ -1253,7 +1259,8 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "green"
+                "color": "green",
+                "value": null
               },
               {
                 "color": "red",
@@ -1284,6 +1291,7 @@
           "sort": "none"
         }
       },
+      "pluginVersion": "11.3.0",
       "targets": [
         {
           "datasource": {
@@ -1320,6 +1328,7 @@
             "axisLabel": "",
             "axisPlacement": "auto",
             "barAlignment": 0,
+            "barWidthFactor": 0.6,
             "drawStyle": "line",
             "fillOpacity": 29,
             "gradientMode": "hue",
@@ -1354,7 +1363,8 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "green"
+                "color": "green",
+                "value": null
               },
               {
                 "color": "red",
@@ -1385,6 +1395,7 @@
           "sort": "none"
         }
       },
+      "pluginVersion": "11.3.0",
       "targets": [
         {
           "datasource": {
@@ -1421,6 +1432,7 @@
             "axisLabel": "",
             "axisPlacement": "auto",
             "barAlignment": 0,
+            "barWidthFactor": 0.6,
             "drawStyle": "line",
             "fillOpacity": 29,
             "gradientMode": "hue",
@@ -1455,7 +1467,8 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "green"
+                "color": "green",
+                "value": null
               },
               {
                 "color": "red",
@@ -1486,6 +1499,7 @@
           "sort": "none"
         }
       },
+      "pluginVersion": "11.3.0",
       "targets": [
         {
           "datasource": {
@@ -1638,6 +1652,7 @@
             "axisLabel": "",
             "axisPlacement": "auto",
             "barAlignment": 0,
+            "barWidthFactor": 0.6,
             "drawStyle": "line",
             "fillOpacity": 25,
             "gradientMode": "opacity",
@@ -1673,7 +1688,8 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "green"
+                "color": "green",
+                "value": null
               },
               {
                 "color": "red",
@@ -1704,6 +1720,7 @@
           "sort": "none"
         }
       },
+      "pluginVersion": "11.3.0",
       "targets": [
         {
           "datasource": {
@@ -1753,6 +1770,7 @@
             "axisLabel": "",
             "axisPlacement": "auto",
             "barAlignment": 0,
+            "barWidthFactor": 0.6,
             "drawStyle": "line",
             "fillOpacity": 25,
             "gradientMode": "opacity",
@@ -1788,7 +1806,8 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "green"
+                "color": "green",
+                "value": null
               },
               {
                 "color": "red",
@@ -1819,6 +1838,7 @@
           "sort": "none"
         }
       },
+      "pluginVersion": "11.3.0",
       "targets": [
         {
           "datasource": {
@@ -1926,6 +1946,20 @@
         "query": "1m,2m,5m,10m,20m,30m",
         "refresh": 2,
         "type": "interval"
+      },
+      {
+        "current": {
+          "text": "Mimir",
+          "value": "PAE45454D0EDB9216"
+        },
+        "description": "",
+        "label": "datasource",
+        "name": "DS_PROMETHEUS",
+        "options": [],
+        "query": "prometheus",
+        "refresh": 1,
+        "regex": "",
+        "type": "datasource"
       }
     ]
   },
@@ -1937,6 +1971,6 @@
   "timezone": "browser",
   "title": "OPNSense Exporter",
   "uid": "cdmf5fk3ip4aob",
-  "version": 1,
+  "version": 2,
   "weekStart": ""
 }
